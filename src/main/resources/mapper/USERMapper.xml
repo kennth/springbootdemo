@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.funmix.seed.dao.USERMapper">
+  <resultMap id="BaseResultMap" type="com.funmix.seed.model.USER">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="companyid" jdbcType="INTEGER" property="companyid" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="token" jdbcType="VARCHAR" property="token" />
+    <result column="access_status" jdbcType="INTEGER" property="accessStatus" />
+    <result column="web_routers" jdbcType="VARCHAR" property="webRouters" />
+    <result column="api_routers" jdbcType="VARCHAR" property="apiRouters" />
+    <result column="default_web_routers" jdbcType="VARCHAR" property="defaultWebRouters" />
+  </resultMap>
+</mapper>
